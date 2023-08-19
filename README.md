@@ -11,6 +11,13 @@
 OR
 - Cut and paste your backend folder from this repository to your htdocs folder
 
+## FOLDER STRUCTURE
+- 'backend' - consists of all php files for the backend handling of project
+- 'pages' - web pages for the website
+- 'components' - all the components that I have used for this project
+- 'public' - for images
+- 'styles' - contains entire css for the project
+
 ## FEATURES OF THIS PROJECT
 - Registration of a new owner
 - Login/Logout of registered owner
