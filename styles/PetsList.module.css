@@ -1,0 +1,25 @@
+.imgCont {
+    border: 2px solid var(--color-text-dark);
+}
+.logoImg {
+    position: relative !important;
+}
+
+.petList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.petList li {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 30%;
+    cursor: pointer;
+}
+.petName {
+    background: var(--color-secondary);
+    padding: 10px;
+}

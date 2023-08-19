@@ -1,0 +1,62 @@
+.profileWrapper {
+    display: flex;
+}
+.pageHeadingContainer {
+    width: 20%;
+    background: linear-gradient(180deg, var(--color-primary), var(--color-text-dark));
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center;
+    justify-content: center; */
+}
+.formContainer {
+    flex: 1 1;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 90px;
+    /* justify-content: center; */
+}
+
+.pageHeadingContainer h1 {
+    color: var(--color-text-light);
+    /* font-weight: bolder; */
+    font-style: italic;
+    width: 100%;
+    padding-left: 15px;
+}
+.aboutSection {
+    display: flex;
+    padding-bottom: 20px;
+}   
+.imgCont {
+    width: 30%;
+}
+.logoImg {
+    position: relative !important;
+}
+.about {
+    flex: 1;
+    padding-left: 20px;
+}
+.about h1 {
+    text-transform: uppercase;
+    font-size: 40px;
+}
+.about p {
+    margin: 0;
+    font-style: italic;
+}
+.personalInfo {
+
+}
+.personalInfo h1 {
+    margin: 0;
+    margin-bottom: 20px;
+}
+.personalInfo div {
+    margin-top: 15px;
+}
+.personalInfo span {
+    margin-left: 10px;
+}

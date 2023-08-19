@@ -1,0 +1,48 @@
+.formContainer {
+    flex: 1 1;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 90px;
+}
+.requestCont {
+    display: flex;
+    align-items: center;
+    background: linear-gradient(360deg, var(--color-secondary), transparent);
+    padding: 10px;
+    cursor: pointer;
+}
+.requestCont:hover {
+    background: linear-gradient(360deg, var(--color-highlight), transparent);
+}
+.imgCont {
+    width: 10%;
+}
+.logoImg {
+    position: relative !important;
+}
+.requestName {
+    font-size: 30px;
+    font-weight: bolder;
+    margin-left: 20px;
+}
+.icons {
+    flex: 1;
+    text-align: right;
+}
+.icons span {
+    font-size: 25px;
+    padding: 15px 20px;
+    color: var(--color-text-light);
+    border-radius: 50%;
+    margin-left: 25px;
+    cursor: pointer;
+}
+.icons span:hover {
+    color: var(--color-text-dark);
+}
+.accept {
+    background: green;
+}
+.reject {
+    background: red;
+}

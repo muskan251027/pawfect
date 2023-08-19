@@ -1,0 +1,50 @@
+.homeWrapper {
+    display: flex;
+    align-items: stretch;
+    background: var(--color-secondary);
+    height: 100%;
+}
+.imgCont {
+    width: 35%;
+}
+.logoImg {
+    position: relative !important;
+}
+.homeContent {
+    flex: 1;
+    text-align: center;
+    align-self: center;
+}
+.homeMainLine {
+    font-family: var(--logo-font);
+    font-size: 36px;
+    font-weight: 800;
+    color: var(--color-primary-contrast);
+}
+.homeMainLine span {
+    color: var(--color-primary);
+}
+.homeMainContent {
+    margin-top: 20px;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.homeJoinLine {
+    font-weight: 800;
+    font-size: 18px;
+}
+.arrow {
+    width: 20%;
+    margin: 20px auto 0px auto;
+    background: var(--color-primary-contrast);
+    padding: 20px 0px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.forwardIcon {
+    color: var(--color-text-light);
+    font-size: 35px;
+}
+.forwardIcon:hover {
+    color: var(--color-highlight);
+}

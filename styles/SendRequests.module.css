@@ -1,0 +1,50 @@
+.filterArea {
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+}
+.searchText {
+    flex: 1;
+}
+.icon {
+    background: var(--color-primary-contrast);
+    color: var(--color-text-light);
+    padding: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.search {
+    background: var(--color-primary);
+    color: var(--color-text-light);
+    padding: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.filterBox {
+    margin-top: 25px;
+    background: var(--color-secondary);
+    padding: 20px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+.category {
+}
+.categoryName {
+    font-family: var(--logo-font);
+    color: var(--color-primary);
+    font-size: 20px;
+}
+.categoryName span {
+    background: red;
+    color: var(--color-text-light);
+    padding: 1px 8px;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.categoryList {
+    margin-top: 10px;
+    border-top: 1px solid var(--color-text-light);
+}

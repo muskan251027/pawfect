@@ -1,0 +1,75 @@
+.registerWrapper {
+    display: flex;
+}
+.pageHeadingContainer {
+    width: 25%;
+    background: var(--color-secondary);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.imgCont {
+    width: 80%;
+}
+.logoImg {
+    position: relative !important;
+}
+.sectionHeading {
+    font-size: 20px;
+    color: #184266;
+    font-weight: 800;
+    font-style: italic;
+    text-align: center;
+}
+.sectionHeading span {
+    font-family: var(--logo-font);
+    font-size: 30px;
+}
+.loginButton {
+    background: var(--color-primary-contrast);
+    padding: 10px 15px;
+    margin-top: 20px;
+    border-radius: 30px;
+    color: var(--color-text-light);
+    font-weight: 600;
+    font-style: italic;
+    cursor: pointer;
+    text-align: center;
+}
+.loginButton:hover {
+    color: var(--color-highlight);
+}
+
+.formContainer {
+    flex: 1 1;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 90px;
+    justify-content: center;
+}
+.submitButton {
+    background: var(--color-highlight);
+    padding: 15px 35px;
+    margin-top: 20px;
+    border-radius: 30px;
+    color: var(--color-text-light);
+    font-weight: 600;
+    font-style: italic;
+    cursor: pointer;
+    text-align: center;
+    /* width: 35%; */
+    align-self: center;
+    margin-top: 50px;
+}
+.deleteButton {
+    border: 1px solid;
+    padding: 2px;
+    background: lightgrey;
+    text-align: center;
+    cursor: pointer;
+}
+.submitButton:hover {
+    color: var(--color-primary);
+}

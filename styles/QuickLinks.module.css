@@ -1,0 +1,21 @@
+.linksContainer {
+    width: 100%;
+}
+.list {
+    list-style: none;
+    padding: 0;
+}
+.list li {
+    padding: 10px;
+    color: var(--color-highlight);
+    font-size: 17px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.list li span{
+    margin-right: 10px;
+}
+.list li:hover {
+    background: linear-gradient(180deg, transparent, var(--color-text-dark));
+    color: var(--color-text-light);
+}

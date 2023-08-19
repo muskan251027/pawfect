@@ -1,0 +1,34 @@
+/* Styles to be applied globally on PAWFECT */
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Poppins:wght@700;800;900&family=Prompt:wght@700;800;900&family=Quicksand:wght@300;400;500;600;700&family=Source+Code+Pro&display=swap');
+
+:root {
+    --color-secondary: #FFD166;
+    --color-primary: #26547C;
+    --color-primary-contrast: #EF476F;
+    --color-text-light: #FCFCFC;
+    --color-text-dark: #071013;
+    --color-highlight: #06D6A0;
+    --logo-font: 'Poppins';
+    --input-font: 'Source Code Pro';
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    color: var(--color-text-dark);
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: 'Quicksand';
+    font-weight: 500;
+}
+.main {
+    flex: 1;
+}
+.error {
+    color: red;
+    font-weight: bolder;
+    align-self: center;
+}

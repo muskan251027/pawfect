@@ -1,0 +1,44 @@
+.header {
+    padding: 15px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background: var(--color-primary); */
+    background: linear-gradient(180deg, var(--color-text-dark), var(--color-primary));
+    color: var(--color-text-light);
+    /* border-bottom: 15px solid var(--color-highlight); */
+}
+.logoContainer {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.logoName {
+    font-family: var(--logo-font);
+    font-weight: 900;
+    font-size: 60px;
+    letter-spacing: 7px;
+}
+.logoName span {color: var(--color-secondary);}
+.imgCont {
+    height: 75px;
+    width: 75px;
+}
+.logoImg {
+    position: relative !important;
+}
+.signInUp {
+    font-size: 20px;
+    font-weight: 800;
+    cursor: pointer;
+}
+.signInUp span {
+    margin-left: 10px;
+}
+.userIcon {
+
+}
+
+.signInUp:hover {
+    color: var(--color-secondary);
+}

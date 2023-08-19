@@ -1,0 +1,35 @@
+.inputContainer {
+    display: flex;
+    column-gap: 25px;
+    padding: 10px;
+    align-items: center;
+}
+.inputContainer label {
+    font-weight: 700;
+    font-style: italic;
+    width: 25%;
+    text-align: right;
+}
+.inputContainer input {
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-family: var(--input-font);
+    flex: 1;
+}
+.selectDropdown {
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-family: var(--input-font);
+    flex: 1 1;
+    border: 2px solid;
+}
+.textArea {
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-family: var(--input-font);
+    flex: 1 1;
+    border: 2px solid;
+}
